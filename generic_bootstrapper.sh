@@ -1,5 +1,5 @@
 #!/bin/bash
-
+source functions_for_bootstrapper
 if ! fileExistsHere .gitignore; then
     touch .gitignore
     echo '# bootstrapped ignores' >> .gitignore

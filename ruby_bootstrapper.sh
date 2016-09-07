@@ -1,5 +1,4 @@
 #!/bin/bash
-functions_for_bootstrapper
 generic_bootstrapper
 touch Gemfile
 echo "source 'https://rubygems.org'" > Gemfile

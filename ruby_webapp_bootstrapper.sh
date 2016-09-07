@@ -1,6 +1,4 @@
 #!/bin/bash
-functions_for_bootstrapper
-generic_bootstrapper
 ruby_bootstrapper
 touch config.ru
 echo "PROJECT_ROOT = File.expand_path(File.join(__FILE__, '..'))" >> config.ru
