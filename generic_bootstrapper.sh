@@ -10,3 +10,5 @@ fi
 if ! fileExistsHere README.md; then
     touch README.md
 fi
+
+initGitIfNot
