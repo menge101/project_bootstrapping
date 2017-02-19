@@ -5,7 +5,7 @@ echo "PROJECT_ROOT = File.expand_path(File.join(__FILE__, '..'))" >> config.ru
 echo "require 'app.rb'" >> config.ru
 touch app.rb
 touch Dockerfile
-echo "FROM ruby:2.3.1-alpine" >> Dockerfile
+echo "FROM ruby:2.4.0-alpine" >> Dockerfile
 echo "" >> Dockerfile
 echo "RUN mkdir -p /srv" >> Dockerfile
 echo "WORKDIR /srv" >> Dockerfile
