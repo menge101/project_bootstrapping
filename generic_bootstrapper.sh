@@ -5,6 +5,7 @@ if ! fileExistsHere .gitignore; then
     echo '# bootstrapped ignores' >> .gitignore
     echo '*_bootstrapper.sh' >> .gitignore
     echo '.idea/*' >> .gitignore
+    echo '.orig' >> .gitignore
 fi
 
 if ! fileExistsHere README.md; then
